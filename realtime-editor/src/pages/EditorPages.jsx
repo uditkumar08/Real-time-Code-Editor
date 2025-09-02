@@ -29,7 +29,7 @@ export const EditorPages = () => {
         <button className='btn copyBtn'>Copy RoomId</button>
         <button className='btn leaveBtn'>Leave</button>
       </div>
-      <div className='editorWrap' style={{backgroundColor:"white"}}>
+      <div className='editorWrap'>
         <Editor></Editor>
       </div>
     </div>
