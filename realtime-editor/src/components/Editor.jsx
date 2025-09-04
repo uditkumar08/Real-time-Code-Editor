@@ -6,8 +6,7 @@ import "codemirror/mode/javascript/javascript";
 
 function Editor() {
   const editorRef = useRef(null);
-  const cmInstanceRef = useRef(null); // ✅ track instance
-
+  const cmInstanceRef = useRef(null); 
   useEffect(() => {
     if (!cmInstanceRef.current) {  
       cmInstanceRef.current = CodeMirror.fromTextArea(editorRef.current, {
