@@ -9,7 +9,7 @@ function Editor() {
   const cmInstanceRef = useRef(null); // ✅ track instance
 
   useEffect(() => {
-    if (!cmInstanceRef.current) { 
+    if (!cmInstanceRef.current) {  
       cmInstanceRef.current = CodeMirror.fromTextArea(editorRef.current, {
         lineNumbers: true,
         mode: "javascript",
