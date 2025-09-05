@@ -12,7 +12,7 @@ function Editor() {
       cmInstanceRef.current = CodeMirror.fromTextArea(editorRef.current, {
         lineNumbers: true,
         mode: "javascript",
-        theme: "dracula",
+        theme: "dracula",       
         autoCloseBrackets: true,
       });
     }
